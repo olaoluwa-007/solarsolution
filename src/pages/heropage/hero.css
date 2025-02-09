@@ -1,0 +1,17 @@
+/* .herosection{
+   
+    width: 100%;
+    height: 520px;
+} */
+
+.herocontainer{
+    background-image: url("../../assets/img/solar2.jpg");
+    width: 100%;
+    height: 520px;
+    background-size: cover;
+    display: flex;
+   
+
+    
+
+}
