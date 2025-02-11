@@ -1,5 +1,6 @@
 import React from 'react'
 import SolarLogo from '../../assets/icons/solarlogo'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -15,9 +16,15 @@ const Navbar = () => {
 
             <nav className=' flex text-white items-center'>
                 <ul className='flex gap-10 font-sans text-sm md:gap-5'>
-                    <li>HOME</li>
-                    <li>ABOUT US</li>
-                    <li>SOLAR INITIATIVES</li>
+                    <li>
+                        <Link to="/">HOME</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">ABOUT US</Link>
+                    </li>
+                    <li>
+                        <Link to="/">SOLAR INITIATIVES</Link> 
+                    </li>
                     <li>OUR SERVICES</li>
                     <li>COMMUNITY</li>
                 </ul>
