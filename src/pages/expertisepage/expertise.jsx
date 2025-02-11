@@ -5,9 +5,9 @@ const Expertise = () => {
   return (
     <section className='w-full flex flex-col justify-center items-center py-10'>
         <div>
-            <h1 className='text-black text-5xl text-center font-bold'>Our Expertise and Experience</h1>
+            <h1 className='text-black text-5xl text-center font-bold md:text-4xl'>Our Expertise and Experience</h1>
         </div>
-        <div className='expertisecard flex justify-center pt-10 gap-5'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 px-5 gap-5 pt-10'>
             <div className='solarsolutions'>
                 <h1 className='text-white pl-5 pt-5 pr-20 text-2xl font-extrabold'>Solar Solutions</h1>
                 <p className='text-white px-5 pt-5 text-lg font-semibold'>Harness the power of the sun and  embrace clean, renewable energy with our solar solutions.</p>

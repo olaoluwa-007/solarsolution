@@ -1,26 +1,28 @@
-.expertisecard{
-    width: 100%;
-}
+
 .solarsolutions{
     background-image: url("../../assets/img/solarsolution.png");
-    width: 262px;
+    width: 250px;
     height: 432px;
+    border-radius: 12px;
 }
 
 .cableservices{
     background-image: url("../../assets/img/cableservices.png");
-    width: 262px;
+    width: 250px;
     height: 432px;
+    border-radius: 12px;
 }
 
 .internetsolutions{
     background-image: url("../../assets/img/internetsolution.png");
-    width: 262px;
+    width: 250px;
     height: 432px;
+    border-radius: 12px;
 }
 
 .phoneservices{
     background-image: url("../../assets/img/phone.png");
-    width: 262px;
+    width: 250px;
     height: 432px;
+    border-radius: 12px;
 }

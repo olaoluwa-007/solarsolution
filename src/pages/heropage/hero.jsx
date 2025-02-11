@@ -4,9 +4,9 @@ import "./hero.css"
 
 const HeroPage = () => {
   return (
-    <section className= "herosection w-full flex bg-lightgray mt-2">
-        <div className= "herocontainer w-full pb-30 pt-10  flex items-center">
-            <h1 className='text-white text-7xl font-extrabold font-montserrat pl-9'>SOLAR <span className='text-brandedRed'>SOLUTIONS</span> <br/>FOR A SUSTAINABLE <br />TOMORROW<span className='text-brandedRed'>.</span></h1>
+    <section className= "herosection w-full flex bg-lightgray">
+        <div className= "herocontainer w-full flex items-center">
+            <h1 className='text-white text-7xl font-extrabold font-montserrat pl-9 md:text-6xl'>SOLAR <span className='text-brandedRed'>SOLUTIONS</span> <br/>FOR A SUSTAINABLE <br />TOMORROW<span className='text-brandedRed'>.</span></h1>
         </div>
     </section>
   )

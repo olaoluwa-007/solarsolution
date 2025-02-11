@@ -27,6 +27,8 @@ export default {
       white: "#ffffff",
       brandedRed:"#EE0000",
       lightgray: "#f4f4f4",
+      midgray: "#f3f3f3",
+      thickgray: "#464646",
       zinc: "#3e3e3e",
       brandedZinc: "#5c5c5c",
       gray: "#787878"
