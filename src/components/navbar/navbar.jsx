@@ -23,7 +23,7 @@ const Navbar = () => {
                         <Link to="/about">ABOUT US</Link>
                     </li>
                     <li>
-                        SOLAR INITIATIVES
+                       <Link to="/expertise">SOLAR INITIATIVES</Link> 
                     </li>
                     <li>OUR SERVICES</li>
                     <li>COMMUNITY</li>

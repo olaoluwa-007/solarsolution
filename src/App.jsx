@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Footer from './components/footer/footer'
 import Home from './pages/homepage/home'
 import AboutUs from './pages/aboutus/aboutus'
+import Expertise from './pages/expertisepage/expertise'
 
 const App = () => {
   return (
@@ -25,6 +26,11 @@ const App = () => {
           <Route 
             path="/about"
             element={<AboutUs/>}
+          />
+
+          <Route
+            path="/expertise"
+            element={<Expertise/>}
           />
         </Routes>
 
